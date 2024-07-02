@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && \
+    apt-get install -y curl
     python3.12.4 \
     python3-pip \
     git
