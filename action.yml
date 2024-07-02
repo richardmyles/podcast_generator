@@ -3,7 +3,7 @@ author: "Richard Myles"
 description: "Generates a feed for a podcast from a YMAL file"
 runs:
   using: "docker"
-  image: "DockerFile"
+  image: "Dockerfile"
 branding:
   icon: "git-branch"
   color: "red"
