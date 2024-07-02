@@ -20,5 +20,5 @@ inputs:
 container:
   image: ghcr.io/owner/image
   credentials:
-     username: ${{ github.actor }}@localhost
+     username: ${{ github.actor }}
      password: ${{ secrets.ghcr_token }}
