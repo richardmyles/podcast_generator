@@ -6,7 +6,7 @@ RUN apt-get update && \
     python3-pip \
     git
 
-RUN forice pip3 reinstall pyYAML
+RUN force pip3 reinstall pyYAML
 
 COPY feed.py /usr/bin/feed.py
 
